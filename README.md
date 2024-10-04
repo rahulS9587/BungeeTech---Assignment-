@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# movies-app
+ I have created a simple React app that fetches movie data from the OMDb API. Users can search for movies, view details like ratings, release year, and box office collections, and save favorites. Built with Tailwind CSS for styling, it offers basic sorting and responsive design.
+ 
+--Here in this  project i am using the OMDB API for fetching movie data. http://www.omdbapi.com/?i=tt3896198&apikey=6ea1ea55 in the code with my own API key.
 
-## Available Scripts
+ 
+## Components
+- Movies: Displays a list of movies with pagination and sorting features.
+- Watchlist: Shows the user's favorite movies.
+- Banner: Displays a banner at the top of the page.
+- Home: Landing page component.
+- Navbar: Includes IMDb-style branding and links to other pages.
+- MovieCard: Displays movie information in a card format.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
+## Features
+1 - Search for Movies: Users can search movies by title and view basic information.
+2 - View Movie Details: Displays details like ratings, release year, and box office collections in MovieCard.
+3 - Pagination: Navigate through movies using "Next" and "Previous" buttons.
+4 - Favorites: Add/remove movies to/from your favorites, stored in localStorage.
+5 - Sorting: Sort movies by year or other criteria.
+6 - Tailwind CSS: Modern, responsive design using Tailwind CSS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Setup and Run Instructions ( Modify this as necessary )
+1. **Clone the repository:**
+  git clone https://github.com/rahulS9587/BungeeTech-Assignment.git
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the project directory:**
+bash
+cd movies-app
+ 
+## Run the app: Start the development server and open the app in your browser.
+Usage
+Search: Enter a movie title to search.
+Sort: Sort movies by release year.
+Favorites Management: Add/remove movies from the favorites list.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Assumptions and Decisions
+Assumption 1: API returns all necessary movie details.
+Assumption 2: App will display movies with available posters and data.
+Design Decisions: Choose React for component-based architecture, Tailwind CSS for styling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ## API Reference
+OMDb API: The app fetches movie data (title, poster, rating, box office) using OMDb API endpoints.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ## API Key
+   - Obtain an API key from OMDB API.
+   
+     const API_KEY = "6ea1ea55";
+     API KEY -- https://www.omdbapi.com/?i=tt3896198&apikey=6ea1ea55
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Run the application:**
+   - Open the `index.html` file in a browser to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Interaction
+Search Bar: Users can interact with the search bar to input a movie title. Upon submitting the search, the app fetches and displays a list of relevant movies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Movie Cards: Each movie is displayed as a card, showing details like title, poster, year, rating, and box office. Clicking on a movie card reveals further information.
 
-## Learn More
+Favorites: Users can add a movie to their favorites by clicking the "Add to Favorites" button on each card. If a movie is already in favorites, they can remove it by clicking "Remove from Favorites."
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pagination Controls: Users can navigate between pages of search results using "Next" and "Previous" buttons.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Sort Option: Users can sort the movie results by year, helping them organize movies by release date.
 
-### Code Splitting
+ ## Screenshots!
+ -- home page screenshot..
+[Screenshot 2024-10-04 at 4 00 39 PM](https://github.com/user-attachments/assets/ee50cec3-2b1d-44ca-8bcf-1158d0380300)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-- add to watchlist screeshot...
+[Screenshot 2024-10-04 at 4 00 58 PM](https://github.com/user-attachments/assets/d1bf9c8b-1aa7-4f31-81c1-cbe4882de38e)
 
-### Analyzing the Bundle Size
+-- watlist page screenshot
+[Screenshot 2024-10-04 at 4 01 09 PM](https://github.com/user-attachments/assets/c3577f0a-9293-4cd3-ab0d-5f8bccd144ef)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## API Reference 
+- **API Provider Name**: -- OMDB API 
+  - **Endpoint 1**: 
+    ```
+    http://localhost:3000/ -- for home page
+    ```
+  - **Endpoint 2**:  http://localhost:3000/watchlist -- for watchlist page
+ 
+ ## Technologies Used
+Frontend: React, Tailwind CSS.
+APIs: OMDb API for movie data.
+Other Tools: Axios for API requests, localStorage for managing favorites.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
