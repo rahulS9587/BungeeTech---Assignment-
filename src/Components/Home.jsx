@@ -10,9 +10,16 @@ function Home() {
   };
 
   return (
-    <div>
-      <Banner featuredMovie={featuredMovie} />
-      <Movies />
+    <div className="bg-gray-900 text-gray-100 min-h-screen">
+     
+      <div className="px-4 py-8 sm:px-8">
+        <Banner featuredMovie={featuredMovie} />
+      </div>
+      
+     
+      <div className="px-4 py-8 sm:px-8">
+        <Movies />
+      </div>
     </div>
   );
 }
