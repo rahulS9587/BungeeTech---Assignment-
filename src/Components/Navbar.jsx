@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imdbLogo from '../assets/Movie-logo.png'; // Place IMDb logo in src/assets
+import imdbLogo from '../assets/Movie-logo.png'; 
 
 function Navbar() {
   return (
