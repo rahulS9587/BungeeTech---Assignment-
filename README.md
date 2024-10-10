@@ -2,7 +2,7 @@
 # movies-app
  I have created a simple React app that fetches movie data from the OMDb API. Users can search for movies, view details like ratings, release year, and box office collections, and save favorites. Built with Tailwind CSS for styling, it offers basic sorting and responsive design.
  
---Here in this  project i am using the OMDB API for fetching movie data. http://www.omdbapi.com/?i=tt3896198&apikey=6ea1ea55 in the code with my own API key.
+Here in this  project i am using the OMDB API for fetching movie data. http://www.omdbapi.com/?i=tt3896198&apikey=6ea1ea55 in the code with my own API key.
 
  
 ## Components
@@ -34,15 +34,15 @@ Run the app: Start the development server and open the app in your browser.
 
 
 ## Usage
-Search: Enter a movie title to search.
-Sort: Sort movies by release year.
-Favorites Management: Add/remove movies from the favorites list.
+1. Search: Enter a movie title to search.
+2. Sort: Sort movies by release year.
+3. Favorites Management: Add/remove movies from the favorites list.
 
 
 
 ## Assumptions and Decisions
-Assumption 1: API returns all necessary movie details.
-Assumption 2: App will display movies with available posters and data.
+1: API returns all necessary movie details.
+2: App will display movies with available posters and data.
 Design Decisions: Choose React for component-based architecture, Tailwind CSS for styling.
 
  ## API Reference
@@ -60,15 +60,15 @@ OMDb API: The app fetches movie data (title, poster, rating, box office) using O
 
 
 ### Interaction
-Search Bar: Users can interact with the search bar to input a movie title. Upon submitting the search, the app fetches and displays a list of relevant movies.
+1. Search Bar: Users can interact with the search bar to input a movie title. Upon submitting the search, the app fetches and displays a list of relevant movies.
 
-Movie Cards: Each movie is displayed as a card, showing details like title, poster, year, rating, and box office. Clicking on a movie card reveals further information.
+2. Movie Cards: Each movie is displayed as a card, showing details like title, poster, year, rating, and box office. Clicking on a movie card reveals further information.
 
-Favorites: Users can add a movie to their favorites by clicking the "Add to Favorites" button on each card. If a movie is already in favorites, they can remove it by clicking "Remove from Favorites."
+3. Favorites: Users can add a movie to their favorites by clicking the "Add to Favorites" button on each card. If a movie is already in favorites, they can remove it by clicking "Remove from Favorites."
 
-Pagination Controls: Users can navigate between pages of search results using "Next" and "Previous" buttons.
+4. Pagination Controls: Users can navigate between pages of search results using "Next" and "Previous" buttons.
 
-Sort Option: Users can sort the movie results by year, helping them organize movies by release date.
+5. Sort Option: Users can sort the movie results by year, helping them organize movies by release date.
 
  ## Screenshots!
  -- home page screenshot..
