@@ -6,12 +6,12 @@
 
  
 ## Components
-1 - Movies: Displays a list of movies with pagination and sorting features.
-2 - Watchlist: Shows the user's favorite movies.
-3 - Banner: Displays a banner at the top of the page.
-4 - Home: Landing page component.
-5 - Navbar: Includes IMDb-style branding and links to other pages.
-6 - MovieCard: Displays movie information in a card format.
+1. Movies: Displays a list of movies with pagination and sorting features.
+2. Watchlist: Shows the user's favorite movies.
+3. Banner: Displays a banner at the top of the page.
+4. Home: Landing page component.
+5. Navbar: Includes IMDb-style branding and links to other pages.
+6. MovieCard: Displays movie information in a card format.
 
 ## Features
 1. Search for Movies: Users can search movies by title and view basic information.
