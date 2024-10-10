@@ -14,12 +14,12 @@
 6 - MovieCard: Displays movie information in a card format.
 
 ## Features
-1 - Search for Movies: Users can search movies by title and view basic information.
-2 - View Movie Details: Displays details like ratings, release year, and box office collections in MovieCard.
-3 - Pagination: Navigate through movies using "Next" and "Previous" buttons.
-4 - Favorites: Add/remove movies to/from your favorites, stored in localStorage.
-5 - Sorting: Sort movies by year or other criteria.
-6 - Tailwind CSS: Modern, responsive design using Tailwind CSS.
+1. Search for Movies: Users can search movies by title and view basic information.
+2. View Movie Details: Displays details like ratings, release year, and box office collections in MovieCard.
+3. Pagination: Navigate through movies using "Next" and "Previous" buttons.
+4. Favorites: Add/remove movies to/from your favorites, stored in localStorage.
+5. Sorting: Sort movies by year or other criteria.
+6. Tailwind CSS: Modern, responsive design using Tailwind CSS.
 
 
 ## Setup and Run Instructions ( Modify this as necessary )
