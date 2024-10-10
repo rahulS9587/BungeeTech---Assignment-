@@ -6,16 +6,13 @@
 
  
 ## Components
-- Movies: Displays a list of movies with pagination and sorting features.
-- Watchlist: Shows the user's favorite movies.
-- Banner: Displays a banner at the top of the page.
-- Home: Landing page component.
-- Navbar: Includes IMDb-style branding and links to other pages.
-- MovieCard: Displays movie information in a card format.
+1 - Movies: Displays a list of movies with pagination and sorting features.
+2 - Watchlist: Shows the user's favorite movies.
+3 - Banner: Displays a banner at the top of the page.
+4 - Home: Landing page component.
+5 - Navbar: Includes IMDb-style branding and links to other pages.
+6 - MovieCard: Displays movie information in a card format.
 
-
-
-## Table of Contents
 ## Features
 1 - Search for Movies: Users can search movies by title and view basic information.
 2 - View Movie Details: Displays details like ratings, release year, and box office collections in MovieCard.
@@ -31,14 +28,16 @@
   
 
 2. **Navigate to the project directory:**
-bash
 cd movies-app
- 
-## Run the app: Start the development server and open the app in your browser.
-Usage
+Run the app: Start the development server and open the app in your browser.
+
+
+
+## Usage
 Search: Enter a movie title to search.
 Sort: Sort movies by release year.
 Favorites Management: Add/remove movies from the favorites list.
+
 
 
 ## Assumptions and Decisions
